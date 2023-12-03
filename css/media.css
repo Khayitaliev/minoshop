@@ -1,0 +1,42 @@
+:root{
+    /* Colors */
+    --light-blue:#007AFF;
+    --bg-color:#F5F5F5;
+    --dark-black:#000;
+    --white:#fff;
+    --light-green:#6CCA4E;
+    --light-black:#1D1D1F;
+    --ultra-light-green:#70FF00;
+    --orange-color:#FE8947;
+    --red-color:#F00;
+    --light-grey:#404143;
+    --input-bg:#C4C4C4;
+    /* Effects */
+    --shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* Google Fonts */
+@font-face {
+    font-family: "SF UI Display";
+    src: url("../fonts/sf-ui/sf-ui-display-heavy-586470160b9e5.otf");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Reset CSS */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
